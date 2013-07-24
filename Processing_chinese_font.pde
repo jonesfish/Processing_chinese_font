@@ -4,7 +4,8 @@ PFont myFont;
 void setup() { 
   size(640, 360);
   background(0);
-  myFont = createFont("華康中圓體", 100);
+  myFont = createFont("標楷體",100);
+  /* 直接輸入字型名稱，只要電腦有安裝該自行即可顯示 */
   textFont(myFont);
 }
 
